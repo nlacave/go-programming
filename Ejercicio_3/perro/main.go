@@ -2,20 +2,20 @@ package main
 
 import (
 	"fmt"
-	"github.com/nlacave/go-programming/Ejercicio_3/gato"
+	"go-programming/Ejercicio_3/gato"
 )
+
 func main() {
-	comer()
-	saludar()
+	Comer()
+	Saludar()
 	gato.Saludar()
 	gato.Comer()
 }
 
-func saludar() {
+func Saludar() {
 	fmt.Println("Guauuuuuuuuu")
 }
 
-func comer() {
+func Comer() {
 	fmt.Println("El perro está comiendo")
 }
-
