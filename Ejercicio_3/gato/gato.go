@@ -8,7 +8,6 @@ func Saludar() {
 	fmt.Println("Miauuuuuuuu")
 }
 
-func Comer(){
+func Comer() {
 	fmt.Println("El gato está comiendo")
 }
-
