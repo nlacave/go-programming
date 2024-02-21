@@ -1,6 +1,7 @@
+package gato
+
 import (
 	"fmt"
-	"github.com/go-programming/Ejercicio_3/gato"
 )
 
 func Saludar() {

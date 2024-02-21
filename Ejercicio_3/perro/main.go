@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-programming/Ejercicio_3/gato"
+	"github.com/nlacave/go-programming/Ejercicio_3/gato"
 )
 func main() {
 	comer()
