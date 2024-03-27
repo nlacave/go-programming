@@ -9,8 +9,8 @@ func main() {
 	ca <- 42
 	ca <- 43
 
-	fmt.Println(<-ca)
-	fmt.Println(<-ca)
+	//fmt.Println(<-ca)
+	//fmt.Println(<-ca)
 
 	fmt.Printf("%T\n", ca)
 }
