@@ -1,8 +1,21 @@
 package cafe
 
 import (
+	"fmt"
 	"testing"
 )
+
+func ExamplePedirCafe() {
+	value := PedirCafe("Vanilla Latte")
+	fmt.Println(value)
+	//Output: 26
+}
+
+func BenchmarkPedirCafe(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		PedirCafe("Vanilla Latte")
+	}
+}
 
 func TestPedirCafe(t *testing.T) {
 	type prueba struct {
