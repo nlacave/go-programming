@@ -1,0 +1,4 @@
+//go test (Sirve para testear si paso o no el codigo)
+//go test -bench . (Sirve para verificar a que velocidad corrio nuestro test y hacer pruebas de rendimiento)
+//go test -cover (Sirve para verificar que porcentaje de nuestro paquete está testeado)
+//go test -coverprofile c.out (Genera un archivo con los datos que están testeados)
