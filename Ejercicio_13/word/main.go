@@ -1,9 +1,9 @@
+// Package word provides assistance with converting maps and string values.
 package word
 
 import "strings"
 
-// no need to write an example for this one
-// writing a test for this one is a bonus challenge; harder
+//UseCount takes a string as input and returns a map where each word is a key associated with its count
 func UseCount(s string) map[string]int {
 	xs := strings.Fields(s)
 	m := make(map[string]int)
@@ -13,8 +13,8 @@ func UseCount(s string) map[string]int {
 	return m
 }
 
+//Count takes a string as input and returns the number of words contained in that string.
 func Count(s string) int {
-	// write the code for this func
 	xs := strings.Fields(s)
 	return len(xs)
 }
